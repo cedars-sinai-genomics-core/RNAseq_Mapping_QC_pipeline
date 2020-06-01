@@ -16,10 +16,10 @@ This pipeline is compatible for reads of "single-end" and "paired-end" which is 
 
 In the folder with only "fastq.gz" files:
 
-nohup perl Mapping_QC_Auto_v3.pl -t <SE|PE> -o <Human_mRNA|Mouse_mRNA|Human_totalRNA|Mouse_totalRNA|Rat> -p <project_ID> -n <1,2,3,...> -qc -gb > projectid.log.txt >2&1 &
+nohup perl /common/genomics-core/apps/mapping_qc_auto/Mapping_QC_Auto_v3.4.pl -t <SE|PE> -o <Human_mRNA|Mouse_mRNA|Human_totalRNA|Mouse_totalRNA|Rat> -p <project_ID> -n <1,2,3,...> -qc -gb > projectid.log.txt >2&1&
 
 example:
-nohup perl Mapping_QC_Auto_v3.pl -t SE -o Mouse_mRNA -p AA-3370--06--21--2017 -n 23,24,25,26,27 -qc > AA-3370--06--21--2017.log.txt 2>&1 &
+nohup perl /common/genomics-core/apps/mapping_qc_auto/Mapping_QC_Auto_v3.4.pl -t SE -o Mouse_mRNA -p KF-9131--03--04--2020 -n 20,21,22 -qc > KF-9131--03--04--2020.log.txt 2>&1&
 
 
 # REQUIREMENT
