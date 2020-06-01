@@ -2,9 +2,8 @@
 This is latest version of RNA-seq pipeline used in Genomics Core of Cedars Sinai Medical Center. 
 
 # Mapping_QC_Auto_v3
-Mapping/QC pipeline for RNA-seq data version 3.0.0
+Mapping/QC pipeline for RNA-seq data version 3.4
 
-RNA-seq Mapping(STAR) QC RSEM pipeline v3.0.0
 
 # DESCRIPTION
 
